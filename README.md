@@ -1,4 +1,4 @@
-# 💼 Proyecto de Facturación - Prueba Técnica Ophelia
+# 💼 Proyecto de Facturación - Prueba Técnica
 
 Este repositorio contiene la solución completa para la prueba técnica FullStack .  
 Incluye:
@@ -26,7 +26,7 @@ Antes de ejecutar el backend o el frontend es indispensable tener la base de dat
 
 ### 2️⃣ Levantar el Backend (Spring Boot - Java)
 
-#### 📂 Ruta: `facturacion/`
+#### 📂 Ruta: `facturacion/`(Extraer)
 
 #### 🔨 Requisitos:
 - Java 17+
@@ -37,13 +37,12 @@ Antes de ejecutar el backend o el frontend es indispensable tener la base de dat
 1. Abre el proyecto `facturacion` con IntelliJ IDEA.
 2. Configura la conexión a tu SQL Server en `application.properties` (usuario, contraseña, puerto, BD).
 3. Ejecuta el proyecto: `FacturacionApplication.java` (Es la clase con `@SpringBootApplication`).
-4. Verifica que exponga correctamente las APIs en `http://localhost:8080/api/...`
 
 ---
 
 ### 3️⃣ Levantar el Frontend (Angular)
 
-#### 📂 Ruta: `facturacion-frontend/`
+#### 📂 Ruta: `facturacion-frontend/`(Extraer)
 
 #### 🔨 Requisitos:
 - Node.js 18+
@@ -55,4 +54,5 @@ Antes de ejecutar el backend o el frontend es indispensable tener la base de dat
 2. Ejecuta en terminal:
 ```bash
 npm install
+ng build
 ng serve
